@@ -1,42 +1,118 @@
-## Programming with JavaScript
+## HOW HTML, CSS,& JAVASCRIPT FIT TOGETHER
+*Before diving into the JavaScript language, you
+need to know how it will fit together with the
+HTML and CSS in your web pages.*
 
-JavaScript can be used in browsers to make websites more interactive, interesting, and user-friendly. Its enough for the user is to know how to build web pages using HTML and CSS
+1. CONTENT LAYER :
+Web developers usually talk about three languages that are used to create web pages
+HTML, CSS, and JavaScript.
+2. PRESENTATION LAYER :
+Where possible,aim to keep the three languages in separate files,with the HTML page linking to
+CSS and JavaScript files. 
+3. BEHAVIOR LAYER :
+Each language forms a separate layer with a different purpose. Each layer, from left to right.
+builds on the previous one.
+## PROGRESSIVE ENHANCEMENT
+*These three layers form the basis of a popular
+approach to building web pages called
+progressive enhancement.*
 
-Learning programing with JavaScript involves:-
-Basic programming concepts.
-like all languages, you need to know its vocabulary and how to structure your sentences.
-How it applied.
-Clarification:-
-Introduction pages come at the beginning of each chapter. They introduce the key topics you will learn about.
-Reference pages introduce key pieces of JavaScript. HTML code is shown in blue, CSS code in pink, and JavaScript in green.
-Background pages appear on white. They explain the context of the topics covered that are discussed in each chapter.
-Diagram and infographics pages are shown on a dark background. They provide a simple, visual reference to topics discussed.
-Example pages bring together the topics you have learned in that chapter and demonstrate how they can be applied.
-Summary pages come at the end of each chapter. They remind you of the key topics that were covered in each chapter.
-How JavaScript makes web developing more interactive ?
-By accessing and modifying the content and mark up used in a web page while its being viewed in the browser.
-By make the web page responding to the user dose
-HTML & CSS A QUICK REFRESHER:
-HTML&CSS
+1. HTML ONLY :
+Starting with the HTML layer
+allows you to focus on the most
+important thing about your site:
+its content.
+Being plain HTML, this layer
+should work on all kinds of
+devices, be accessible to all
+users, and load quite quickly on
+slow connections.
+2. HTML+CSS :
+Adding the CSS rules in a
+separate file keeps rules
+regarding how the page looks
+away from the content itself.
+You can use the same style sheet
+with all of your site, making your
+sites faster to load and easier
+to maintain. Or you can use
+different style sheets with the
+same content to create different
+views of the same data. 
+3. HTML+CSS+JAVASCRIPT :
+The JavaScript is added last
+and enhances the usability of
+the page or the experience of
+interacting with the site.
+Keeping it separate means
+that the page still works if the
+user cannot load or run the
+JavaScript. You can also reuse
+the code on several pages
+(making the site faster to load
+and easier to maintain). 
+## CREATING A BASIC JAVASCRIPT
+*JavaScript is written in plain text, just like HTML and CSS, so you do not
+need any new tools to write a script. This example adds a greeting into an
+HTML page. The greeting changes depending on the time of day.*
+## LINKING TO A JAVASCRIPT FILE FROM AN HTML PAGE
+*When you want to use JavaScript with a web page, you use the HTML
+<script> element to tell the browser it is coming across a script.
+Its s re attribute tells people where the JavaScript file is stored.*
 
-The ABC of programming:
-Before you learn how to read and write the JavaScript language itself, you need to become familiar with some key concepts in computer programming. They will be covered in three sections:
+## THE SOURCE CODE IS NOT AMENDED
+*If you look at the source code for the example
+you just created, you will see that the HTML is
+still exactly the same.*
+ ## PLACING THE SCRIPT IN THE PAGE
+ *You may see JavaScript in the HTML between
+opening <script> and closing </script> tags
+(but it is better to put scripts in their own files).*
 
-A) What is a script and how it can be created ? B) How dose the computer fits with the word around them ? C) How do user write a script for a webpage ?
+## Basic JavaScript Instructions
+ *In this chapter, you will start learning to read and write
+JavaScript. You wil l also learn how to give a web browser
+instructions you want it to follow.*
 
-What is a script?
-A script is a series of instructions that a computer can follow to achieve a goal.
+1. THE LANGUAGE:
+SYNTAX AND GRAMMAR
+like any new language, there are new
+words to learn (the vocabulary) and rules
+for how these can be put together (the
+grammar and syntax of the language)
 
-You could compare scripts to any of the following:
-Recipe: Some scripts are simple and only deal with one individual scenario, like a simple recipe for a basic dish. Other scripts can perform many tasks, like a recipe for a complicated three-course meal
+2. GIVING INSTRUCTIONS:
+Web browsers (and computers in general)
+approach tasks in a very different way than
+a human might. Your instructions need to
+reflect how computers get things done.
 
-HandBooks: In a complex script, the browser might use only a subset of the code available at any given time.
+## STATEMENTS :
+*A script is a series of instructions that a computer can follow one-by-one.
+Each individual instruction or step is known as a statement.
+Statements should end with a semicolon.*
 
-Manual: Scripts can allow the browser to check the current situation and only perform a set of steps if that action is appropriate.
+## COMMENTS :
+*You should write comments to explain what your code does.
+They help make your code easier to read and understand.
+This can help you and others who read your code.*
 
-WRITING A SCRIPT
-To write a script, you need to first state your goal and then list the tasks that need to be completed in order to achieve it.
+### Type :
+1. MULTI-LINE COMM ENTS :
+To write a comment that stretches over more than
+one line, you use a multi-line comment, starting with
+the /* characters and ending with the */ characters.
+Anything between these characters is not processed·
+by the JavaScript interpreter.
+M ulti-line comment s are often used for descriptions
+of how the script works, or to prevent a section of
+the script from running when testing it.
 
-Define the goal : First, you need to define the task you want to achieve. You can think of this as a puzzle for 1. the computer to solve.
-2. Design the script.
-3. Code each step.
+2. SINGLE-LINE COMMENTS :
+In a single-line comment, anything that follows the
+two forward slash characters I/ on that line will not
+be processed by the JavaScript interpreter. Singleline comments are often used for short descriptions
+of what the code is doing.
+Good use of comments will help you if you come
+back to your code after several days or months.
+They also help those who are new to your code.
