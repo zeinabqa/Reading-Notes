@@ -54,8 +54,8 @@ In one world, failure is about having a setback. Getting a bad grade. Losing a t
 | Read01      | [Link 1](https://zeinabqa.github.io/Reading-Notes/read2)      |
 | Read02      | [Link 2](https://zeinabqa.github.io/Reading-Notes/read02)      |
 | Read03      | [Link 3](https://zeinabqa.github.io/Reading-Notes/read03)      |
-| Read04      | [Link 4]()      |
-| Read05      | [Link 5]()      |
+| Read04a     | [Link 4a](https://zeinabqa.github.io/Reading-Notes/read04a)      |
+| Read04b     | [Link 4b](https://zeinabqa.github.io/Reading-Notes/read04b)      |
 | Read06      | [Link 6]()      |
 | Read07      | [Link 7]()      |
 | Read08      | [Link 8]()      |
