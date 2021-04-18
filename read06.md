@@ -1,4 +1,5 @@
 **how to Programming with JavaScript**
+
 Writing a Script
 ***To write a script, you need to first state your goal and then list the tasks that need to be completed in order to achieve it. *** ***Start with the big picture of what you want to achieve, and break that down into smaller steps. ***
 Define The Goal :*First, you need to define the task you want to achieve. You can think of this as a puzzle for the computer to solve. *
